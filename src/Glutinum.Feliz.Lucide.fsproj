@@ -6,6 +6,7 @@
     <RepositoryUrl>https://github.com/glutinum-org/Glutinum.Feliz.Lucide</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Authors>Maxime Mangel</Authors>
+    <PackageTags>fable;fable-binding;fable-javascript</PackageTags>
     <ChangelogFile>$(MSBuildThisFileDirectory)\..\CHANGELOG.md</ChangelogFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
