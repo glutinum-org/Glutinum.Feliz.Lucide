@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Glutinum.Feliz.Lucide", "src\Glutinum.Feliz.Lucide.fsproj", "{121A7528-9944-4A8B-BEDA-B2D322D11C83}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Build", "build\Build.fsproj", "{3CFDB205-B245-4DDF-B2B9-6086B60875E8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demo", "demo\Demo.fsproj", "{054D7DBC-B3A3-42E7-909A-85817B211496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121A7528-9944-4A8B-BEDA-B2D322D11C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121A7528-9944-4A8B-BEDA-B2D322D11C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121A7528-9944-4A8B-BEDA-B2D322D11C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121A7528-9944-4A8B-BEDA-B2D322D11C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFDB205-B245-4DDF-B2B9-6086B60875E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFDB205-B245-4DDF-B2B9-6086B60875E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFDB205-B245-4DDF-B2B9-6086B60875E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFDB205-B245-4DDF-B2B9-6086B60875E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054D7DBC-B3A3-42E7-909A-85817B211496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054D7DBC-B3A3-42E7-909A-85817B211496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054D7DBC-B3A3-42E7-909A-85817B211496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054D7DBC-B3A3-42E7-909A-85817B211496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

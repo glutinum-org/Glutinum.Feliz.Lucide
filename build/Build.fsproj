@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\Proc.fs" />
+    <Compile Include="Helpers\CLI.fs" />
+    <Compile Include="Helpers\Glob.fs" />
+    <Compile Include="Helpers\Changelog.fs" />
+    <Compile Include="Build.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
