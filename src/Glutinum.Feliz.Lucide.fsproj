@@ -6,7 +6,7 @@
     <RepositoryUrl>https://github.com/glutinum-org/Glutinum.Feliz.Lucide</RepositoryUrl>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Authors>Maxime Mangel</Authors>
-    <ChangelogFile>../CHANGELOG.md</ChangelogFile>
+    <ChangelogFile>$(MSBuildThisFileDirectory)\..\CHANGELOG.md</ChangelogFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
@@ -29,7 +29,7 @@
     <Compile Include="Exports.fs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+    <None Include="$(MSBuildThisFileDirectory)\..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
     <None Include="$(MSBuildThisFileDirectory)\..\README.md" Pack="true" PackagePath="$(PackageReadmeFile)" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
