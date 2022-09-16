@@ -15,7 +15,7 @@ let demoPath = Path.getFullName "demo"
 let srcPath = Path.getFullName "src"
 
 let gitOwner = "glutinum-org"
-let gitName = "Glutinum.Feliz.ReactResizeDetector"
+let gitName = "Glutinum.Feliz.Lucide"
 
 [<EntryPoint>]
 let main args =
